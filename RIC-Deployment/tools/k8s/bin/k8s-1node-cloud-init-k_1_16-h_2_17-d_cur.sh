@@ -1,5 +1,6 @@
 #!/bin/bash -x
 
+export PATH=“/usr/bin:$PATH”
 
 wait_for_pods_running () {
   NS="$2"
